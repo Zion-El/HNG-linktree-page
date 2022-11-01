@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.links{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn_box{
+  width: 80%;
+  background: hsl(220, 17%, 93%);
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  text-align: center; 
+  padding: 18px 32px;
+}
+.link_Btn{
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header h1{
+  font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #101828;
+}
+#profile_img{
+  border-radius: 50%;
+  width: 88px;
+height: 88px;
+}
